@@ -1,0 +1,8 @@
+
+clean: abc_clean
+
+#This clean works from O.* dirs.
+abc_clean: 
+	@$(RM) *
+
+.PHONY: abc_clean

@@ -1,8 +1,13 @@
 
-clean: abc_clean
+# clean: abc_clean
 
-#This clean works from O.* dirs.
-abc_clean: 
-	@$(RM) *
+# distclean: abc_distclean
 
-.PHONY: abc_clean
+# #This clean works from O.* dirs.
+# abc_clean: 
+# 	@$(RM) *
+
+# abc_distclean:
+# 	@$(RM) $(INSTALL_ABC)
+	
+# .PHONY: abc_clean abc_distclean
